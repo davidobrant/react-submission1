@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.add-card-form {
+    background: #fff;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: .8rem;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info input {
+    width: 150px;
+}
+
+.valid, 
+.ccv {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-card-form label {
+    font-size: .6rem;
+    color: var(--dark-gray);
+    padding-top: .6rem;
+}
+
+.add-card-form input {
+    border-radius: 7px;
+    text-transform: uppercase;
+    padding: .6rem;
+}
+
+.add-card-form select {
+    padding: .6rem;
+    border-radius: 7px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.add-card-form select option {
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.add-card-form button {
+    margin-top: 1.2rem;
+    padding: .6rem;
+    border-radius: 7px;
+    background: #000;
+    color: #FFF;
+}
+
+.add-card-form .disabled {
+    background: #eee;
+    padding: .6rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    user-select: none;
+    border-radius: 7px;
+}

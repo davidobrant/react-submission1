@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.card {
+    font-family: 'Roboto Slab', serif;
+    margin: .6rem;
+    position: relative;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem .4rem 1rem;
+}
+
+.cardNumber {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cardNumberPiece {
+    padding: 0 .6rem;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem;
+    font-size: .9rem;
+}
+
+.card-bottom span {
+    color: var(--dark-gray);
+    font-size: .6rem;
+}
+
+.cardHolder {
+    font-family: 'Roboto Slab', serif;
+    text-align: start;
+}
+
+.valid-thru {
+    text-align: end;
+}
+

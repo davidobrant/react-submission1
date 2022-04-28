@@ -1,0 +1,28 @@
+.card-stack {
+    margin-top: 3rem;
+    background: #fff;
+    position: relative;
+}
+
+.add-card-button {
+    width: 100%;
+    padding: .8rem;
+    background: #FFF;
+    color: #000;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.button-container {
+    background: #fff;
+    padding: .6rem;
+}
+
+.card-in-stack {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
